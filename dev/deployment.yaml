@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: processor
-          image: customer-event-processor:v1
+          image: customer-event-processor:v2
           imagePullPolicy: IfNotPresent
 
           ports:
